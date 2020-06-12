@@ -1,6 +1,6 @@
 # zomato_clean
 
-A new Flutter project.
+Experiment with clean architecture by Uncle Bob along with flutter
 
 ## Getting Started
 
