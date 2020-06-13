@@ -1,6 +1,6 @@
 # zomato_clean
 
-Experiment with clean architecture by Uncle Bob along with flutter
+Experiment clean architecture by Uncle Bob along with flutter
 
 ## Getting Started
 
