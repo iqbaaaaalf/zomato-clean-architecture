@@ -1,4 +1,4 @@
-import 'package:zomato_clean/features/location/domain/entities/location.dart';
+import 'package:zomato_clean/features/location/domain/entities/location_list.dart';
 import 'package:zomato_clean/features/location/domain/repositories/location_repository.dart';
 
 class LocationUsecase {
@@ -6,8 +6,9 @@ class LocationUsecase {
 
   LocationUsecase(this.repository);
 
-  Future<List<Location>> getLocations(String query) async {
+  Future<LocationList> getLocations(String query) async {
     final locations = await repository.getLocations(query);
+    
     return locations;
   }
 }

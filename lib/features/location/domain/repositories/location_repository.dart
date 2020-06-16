@@ -1,5 +1,5 @@
-import 'package:zomato_clean/features/location/domain/entities/location.dart';
+import 'package:zomato_clean/features/location/domain/entities/location_list.dart';
 
 abstract class LocationRepository {
-  Future<List<Location>> getLocations(String query);
+  Future<LocationList> getLocations(String query);
 }
