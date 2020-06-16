@@ -1,0 +1,30 @@
+{
+  "location_suggestions": [
+    {
+      "entity_type": "city",
+      "entity_id": 74,
+      "title": "Jakarta",
+      "latitude": -6.189281,
+      "longitude": 106.836104,
+      "city_id": 74,
+      "city_name": "Jakarta",
+      "country_id": 94,
+      "country_name": "Indonesia"
+    },
+    {
+      "entity_type": "zone",
+      "entity_id": 74002,
+      "title": "East Jakarta, Jakarta",
+      "latitude": -6.198169,
+      "longitude": 106.888222,
+      "city_id": 74,
+      "city_name": "Jakarta",
+      "country_id": 94,
+      "country_name": "Indonesia"
+    }
+  ],
+  "status": "success",
+  "has_more": 0,
+  "has_total": 0,
+  "user_has_addresses": true
+}

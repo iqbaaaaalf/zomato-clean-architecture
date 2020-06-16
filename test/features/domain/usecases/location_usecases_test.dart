@@ -20,11 +20,11 @@ void main() {
   final String tQuery = 'jakarta';
 
   test('should get locations for the query from repository ', () async {
-    when(mockLocationRepository.getLocations(any)).thenAnswer((_) async => mockLocations);
+    when(mockLocationRepository.getLocations(any)).thenAnswer((_) async => mockLocationList);
 
     final LocationList locations = await usecase.getLocations(tQuery);
 
-    expect(locations, mockLocations);
+    expect(locations, mockLocationList);
     verify(mockLocationRepository.getLocations(tQuery));
     verifyNoMoreInteractions(mockLocationRepository);
   });
